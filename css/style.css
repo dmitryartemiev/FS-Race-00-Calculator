@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 .container {
-    min-height: 650px;
+  min-height: 650px;
   height: 60vh;
   width: 500px;
   background-color: rgb(77, 184, 77);
@@ -13,7 +13,6 @@ body {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-
 }
 .title {
   margin: 50px auto;
@@ -34,24 +33,33 @@ body {
   border-top-right-radius: 20px;
   display: flex;
   flex-direction: column;
+}
+.input_lane {
+  font-size: 1.2rem;
+  font-family: "Sora", sans-serif;
 
+  color: gray;
+  display: inline-block;
+  text-align: right;
+  margin: 20px 20px 0px 0px;
+  -moz-appearance: textfield;
+  min-height: 25px;
 }
-.input_lane{
-    font-size: 1.2rem;
-    font-family: "Sora", sans-serif;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    color: gray;
-    display: inline-block;
-    text-align: right;
-    margin: 20px 20px 0px 0px;
+.result_lane {
+  font-family: "Sora", sans-serif;
+  background-color: transparent;
+  text-align: right;
+  font-size: 2.5rem;
+  margin: 5px 20px 0px 0px;
+  overflow: hidden;
+  border: none;
+  outline: none;
 }
-.result_lane{
-    text-align: right;
-    font-size: 2.5rem;
-    margin: 5px 20px 0px 0px;
-    overflow: hidden;
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 /* End of input container */
 /* Start of button container */
@@ -73,20 +81,20 @@ body {
 td {
   text-align: center;
   transition: 0.2s ease;
-    background-color:rgba(30, 185, 43, 0.356) ;
+  background-color: rgba(30, 185, 43, 0.356);
 }
 td:hover {
   background-color: #6fc4c4;
 }
-td.last-cell-left{
-    border-bottom-left-radius: 19px;
-}  
-td.last-cell-right{
-    background-color: #f38989;
-
-border-bottom-right-radius: 19px;
+td.last-cell-left {
+  border-bottom-left-radius: 19px;
 }
-td.last-cell-right:hover{
-    background-color: #993f3f;
+td.last-cell-right {
+  background-color: #f38989;
+
+  border-bottom-right-radius: 19px;
+}
+td.last-cell-right:hover {
+  background-color: #993f3f;
 }
 /* End of button container */
