@@ -86,6 +86,9 @@ td {
 td:hover {
   background-color: #6fc4c4;
 }
+td:active{
+  background-color:#4d8b8b ;
+}
 td.last-cell-left {
   border-bottom-left-radius: 19px;
 }
@@ -96,5 +99,8 @@ td.last-cell-right {
 }
 td.last-cell-right:hover {
   background-color: #993f3f;
+}
+td.last-cell-right:active {
+  background-color: #692e2e;
 }
 /* End of button container */
