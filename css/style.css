@@ -1,0 +1,90 @@
+body {
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 60vh;
+  width: 500px;
+  background-color: rgb(77, 184, 77);
+  margin: 250px auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin: 50px auto;
+  font-weight: 700;
+  font-size: 2rem;
+  color: white;
+}
+.calc-app {
+  height: 100%;
+  margin: 30px;
+  background-color: white;
+  border-radius: 20px;
+}
+/* Start of input container */
+.input {
+  height: 30%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+.input_lane{
+    font-size: 1.2rem;
+    font-family: "Sora", sans-serif;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: gray;
+    display: inline-block;
+    text-align: right;
+    margin: 20px 20px 0px 0px;
+}
+.result_lane{
+    text-align: right;
+    font-size: 2.5rem;
+    margin: 5px 20px 0px 0px;
+    overflow: hidden;
+}
+/* End of input container */
+/* Start of button container */
+.buttons__container {
+  height: calc(70%);
+  width: calc(100%);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: linear-gradient(to right, #baf0ba, #abf0ab);
+  color: white;
+  font-size: 2.5rem;
+}
+.buttons__table {
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+td {
+  text-align: center;
+  transition: 0.2s ease;
+    background-color:rgba(30, 185, 43, 0.356) ;
+}
+td:hover {
+  background-color: #6fc4c4;
+}
+td.last-cell-left{
+    border-bottom-left-radius: 19px;
+}  
+td.last-cell-right{
+    background-color: #f38989;
+
+border-bottom-right-radius: 19px;
+}
+td.last-cell-right:hover{
+    background-color: #993f3f;
+}
+/* End of button container */
