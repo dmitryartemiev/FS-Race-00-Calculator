@@ -5,6 +5,7 @@ body {
   padding: 0;
 }
 .container {
+    min-height: 650px;
   height: 60vh;
   width: 500px;
   background-color: rgb(77, 184, 77);
@@ -12,6 +13,7 @@ body {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+
 }
 .title {
   margin: 50px auto;
