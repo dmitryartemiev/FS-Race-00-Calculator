@@ -16,14 +16,14 @@
         <div class="calc-app">
             <div class="input">
                 <div class="input_lane"></div>
-                <input class="result_lane" type="text" />
+                <input class="result_lane" type="text" readonly value="0"/>
             </div>
             <div class="buttons__container">
                 <table class="buttons__table">
                     <tr>
                         <td id="clear" onclick="clean()">C</td>
-                        <td id="plus-minus" onclick="operation('±')">±</td>
-                        <td id="percent" onclick="operation('%')">%</td>
+                        <td id="plus-minus" onclick="toggle()">±</td>
+                        <td id="percent" onclick="percent()">%</td>
                         <td id="division" onclick="operation('/')">÷</td>
                     </tr>
                     <tr>
